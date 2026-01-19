@@ -26,7 +26,7 @@ const Navbar = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = "../../public/ROEUNG_NAK.pdf";
-    link.download = "Roeung_Nak_CV.pdf";
+    link.download = "ROEUNG_NAK.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
